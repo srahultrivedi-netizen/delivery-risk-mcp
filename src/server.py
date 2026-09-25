@@ -7,6 +7,30 @@ from typing import Any
 from src.risk_engine import calculate_risk_score
 
 from mcp.server.fastmcp import FastMCP  # type: ignore[reportMissingImports]
+from mcp.server.transport_security import (  # type: ignore[reportMissingImports]
+    TransportSecuritySettings,
+)
+
+APP_HOST = "delivery-risk-mcp-sujal-trivedi-fcfncqehbmfddpac.westus-01.azurewebsites.net"
+
+mcp = FastMCP(
+    "Delivery Risk MCP",
+    transport_security=TransportSecuritySettings(
+        enable_dns_rebinding_protection=True,
+        allowed_hosts=[
+            "localhost:*",
+            "127.0.0.1:*",
+            f"{APP_HOST}:*",
+            f"{APP_HOST}:443",
+        ],
+        allowed_origins=[
+            "http://localhost:*",
+            "https://localhost:*",
+            f"https://{APP_HOST}",
+            f"https://{APP_HOST}:443",
+        ],
+    ),
+)
 
 mcp = FastMCP(
     "Project Delivery Risk Navigator",
