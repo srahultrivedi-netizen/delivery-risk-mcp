@@ -1,0 +1,157 @@
+[
+  {
+    "project_id": "P-001",
+    "project_name": "Atlas",
+    "client_name": "Synthetic Client A",
+    "status": "In Progress",
+    "budget": {
+      "planned": 1200000,
+      "spent": 780000
+    },
+    "schedule": {
+      "planned_completion": "2026-11-30",
+      "forecast_completion": "2027-01-15",
+      "percent_complete": 62
+    },
+    "risks": [
+      {
+        "description": "Dependency on delayed data migration",
+        "severity": "High",
+        "status": "Open"
+      }
+    ],
+    "issues": [
+      {
+        "description": "Testing environment is not stable",
+        "severity": "Medium",
+        "status": "Open"
+      }
+    ],
+    "last_updated": "2026-09-18"
+  },
+  {
+    "project_id": "P-002",
+    "project_name": "Beacon",
+    "client_name": "Synthetic Client B",
+    "status": "In Progress",
+    "budget": {
+      "planned": 850000,
+      "spent": 410000
+    },
+    "schedule": {
+      "planned_completion": "2026-12-15",
+      "forecast_completion": "2026-12-20",
+      "percent_complete": 58
+    },
+    "risks": [
+      {
+        "description": "Limited availability of subject-matter experts",
+        "severity": "Low",
+        "status": "Open"
+      }
+    ],
+    "issues": [],
+    "last_updated": "2026-09-19"
+  },
+  {
+    "project_id": "P-003",
+    "project_name": "Cascade",
+    "client_name": "Synthetic Client C",
+    "status": "At Risk",
+    "budget": {
+      "planned": 2000000,
+      "spent": 1650000
+    },
+    "schedule": {
+      "planned_completion": "2026-10-31",
+      "forecast_completion": "2027-02-28",
+      "percent_complete": 48
+    },
+    "risks": [
+      {
+        "description": "Integration design is incomplete",
+        "severity": "High",
+        "status": "Open"
+      },
+      {
+        "description": "Third-party vendor decision is pending",
+        "severity": "Medium",
+        "status": "Open"
+      }
+    ],
+    "issues": [
+      {
+        "description": "Defect backlog is increasing",
+        "severity": "High",
+        "status": "Open"
+      }
+    ],
+    "last_updated": "2026-09-17"
+  },
+  {
+    "project_id": "P-004",
+    "project_name": "Delta",
+    "client_name": "Synthetic Client D",
+    "status": "In Progress",
+    "budget": {
+      "planned": 950000,
+      "spent": 520000
+    },
+    "schedule": {
+      "planned_completion": "2027-01-31",
+      "forecast_completion": "2027-01-25",
+      "percent_complete": 55
+    },
+    "risks": [],
+    "issues": [],
+    "last_updated": "2026-09-20"
+  },
+  {
+    "project_id": "P-005",
+    "project_name": "Evergreen",
+    "client_name": "Synthetic Client E",
+    "status": "At Risk",
+    "budget": {
+      "planned": 1500000,
+      "spent": 1425000
+    },
+    "schedule": {
+      "planned_completion": "2026-12-31",
+      "forecast_completion": "2027-01-20",
+      "percent_complete": 71
+    },
+    "risks": [
+      {
+        "description": "Budget pressure from additional requirements",
+        "severity": "High",
+        "status": "Open"
+      }
+    ],
+    "issues": [
+      {
+        "description": "Change requests are awaiting approval",
+        "severity": "Medium",
+        "status": "Open"
+      }
+    ],
+    "last_updated": "2026-09-16"
+  },
+  {
+    "project_id": "P-006",
+    "project_name": "Horizon",
+    "client_name": "Synthetic Client F",
+    "status": "Completed",
+    "budget": {
+      "planned": 700000,
+      "spent": 675000
+    },
+    "schedule": {
+      "planned_completion": "2026-08-31",
+      "forecast_completion": "2026-08-28",
+      "percent_complete": 100
+    },
+    "risks": [],
+    "issues": [],
+    "last_updated": "2026-09-15"
+  }
+]

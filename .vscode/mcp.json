@@ -1,0 +1,18 @@
+
+{
+  "servers": {
+    "delivery-risk-mcp": {
+      "type": "stdio",
+      "command": "C:\\Users\\srahultrivedi\\OneDrive - Deloitte (O365D)\\Desktop\\delivery-risk-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "src.server"
+      ],
+      "cwd": "C:\\Users\\srahultrivedi\\OneDrive - Deloitte (O365D)\\Desktop\\delivery-risk-mcp",
+      "env": {
+        "PYTHONPATH": "C:\\Users\\srahultrivedi\\OneDrive - Deloitte (O365D)\\Desktop\\delivery-risk-mcp",
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}
